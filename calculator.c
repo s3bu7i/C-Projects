@@ -12,7 +12,6 @@ int main()
           "\n6 = exit"
           "\n\nChoice: ");
    scanf("%d", &choice);
-   //while loop check whether the choice is in the given range
    while(choice < 1 || choice > 6)
    {
       printf("\nPlease choose the above mentioned option."
@@ -44,7 +43,6 @@ int main()
       scanf("%d", &num1);
       printf("Enter Divisor: ");
       scanf("%d", &num2);
-     //while loop checks for divisor whether it is zero or not
      while(num2 == 0)
      {
         printf("\nDivisor cannot be zero."
